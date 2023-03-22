@@ -5,6 +5,7 @@
 - 倍频clk，使用高一倍的频率信号触发always
 - 由posedge和negeedge触发的always分别管理reg a，reg b，再通过clk电平判断，将其合并到reg out
 - 通过锁相环产生一个相差180°的clk信号clk1，由clk和clk1共同触发always模块
+
 有鉴于本人对锁相环不甚了解，其他方法又过于繁杂，故在几番思索之后，参考曾经做过的一个5分频电路的思路，设计了本模块
 
 ## 2.如何使用
