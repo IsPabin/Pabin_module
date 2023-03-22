@@ -8,12 +8,14 @@
 有鉴于本人对锁相环不甚了解，其他方法又过于繁杂，故在几番思索之后，参考曾经做过的一个5分频电路的思路，设计了本模块
 
 ## 2.如何使用
-`input：clk //输入时钟信号`
+`input：clk——in //输入时钟信号`
+
 `input: rst_n //低电平初始化信号`
+
 `output: dubl_clk //输出上升脉冲信号`
 
 ## 3.核心思路
-将clk的上升沿和下降沿全部转化为上升脉冲（up-down $\Longrightarrow$ up-up）,当clk处于稳定的高或低电平时，输出将保持低电平
+将clk_in的上升沿和下降沿全部转化为上升脉冲（up-down $\Longrightarrow$ up-up）,当clk处于稳定的高或低电平时，输出将保持低电平
 
 ## 4.仿真波形
 环境：modelsim se win32 10.1c 
