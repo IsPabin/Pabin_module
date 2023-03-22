@@ -3,7 +3,7 @@
  * @Date: 2023-03-22 15:19:05
  * @LastEditors: Pabin <pabin_pluto@foxmail.com>
  * @LastEditTime: 2023-03-22 15:51:45
- * @FilePath: \test_double_clk\rtl\ud_uuab.v
+ * @FilePath: Pabin_module\ud_uuab\ud_uuab.v
  * @Description: 
  *    This module converts the posedge and negedge 
  *of a clock signal into rising edge, when the 
