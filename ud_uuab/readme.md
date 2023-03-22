@@ -16,3 +16,5 @@
 将clk的上升沿和下降沿全部转化为上升脉冲（up-down $\Longrightarrow$ up-up）,当clk处于稳定的高或低电平时，输出将保持低电平
 
 ## 4.仿真波形
+环境：modelsim se win32 10.1c 
+![image](https://user-images.githubusercontent.com/99165596/226847238-d4d03a45-1c89-483e-856b-45ec23305100.png)
