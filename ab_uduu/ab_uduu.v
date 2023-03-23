@@ -3,7 +3,7 @@
  * @Date: 2023-03-22 15:19:05
  * @LastEditors: Pabin <pabin_pluto@foxmail.com>
  * @LastEditTime: 2023-03-22 15:51:45
- * @FilePath: Pabin_module\ud_uuab\ud_uuab.v
+ * @FilePath: Pabin_module\ab_uduu\ab_uduu.v
  * @Description: 
  *    This module converts the posedge and negedge 
  *of a clock signal into rising edge, when the 
@@ -14,7 +14,7 @@
  * Copyright (c) 2023 by Pabin, All Rights Reserved. 
  */
 
-module ud_uuab (
+module ab_uduu (
     input clk_in,//输入时钟信号
     input rst_n, //复位信号
     output reg dubl_clk //输出双边沿脉冲信号
@@ -36,4 +36,4 @@ always @(posedge dubl_clk or negedge rst_n)
                 clk_sel <= ~clk_sel;
             end
     end
-endmodule //ud_uuab
+endmodule //ab_uduu
