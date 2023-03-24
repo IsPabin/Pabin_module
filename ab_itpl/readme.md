@@ -35,5 +35,7 @@
 ## 4.仿真波形
 环境：modelsim se win32 10.1c 
 KEEP = 0（单次脉冲）
+![image](https://user-images.githubusercontent.com/99165596/227416384-6a6531c6-614e-4df6-9ef8-167f3b796ce3.png)
 
 KEEP = N（N>0）
+![image](https://user-images.githubusercontent.com/99165596/227416293-1f025e0b-0db3-4dd0-95f1-8997eb16d130.png)
