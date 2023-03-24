@@ -1,13 +1,3 @@
-<!--
- * @Author: Pabin <pabin_pluto@foxmail.com>
- * @Date: 2023-03-24 10:51:39
- * @LastEditors: Pabin <pabin_pluto@foxmail.com>
- * @LastEditTime: 2023-03-24 11:20:00
- * @FilePath: \Pabin_module\ab_itpl\readme.md
- * @Description: 
- * 
- * Copyright (c) 2023 by Pabin, All Rights Reserved. 
--->
 # 模块介绍
 ## 1.模块由来
 本模块想法开始于2022秋数电期中作业时，设计一个时间可设置的计时器时，所遇到的一个每当状态切换后需要初始化的问题，结果后来的不断完善，设计出了此模块
