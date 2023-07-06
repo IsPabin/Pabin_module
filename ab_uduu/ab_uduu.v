@@ -2,8 +2,8 @@
  * @Author: Pabin <pabin_pluto@foxmail.com>
  * @Date: 2023-03-22 15:19:05
  * @LastEditors: Pabin <pabin_pluto@foxmail.com>
- * @LastEditTime: 2023-03-22 15:51:45
- * @FilePath: Pabin_module\ab_uduu\ab_uduu.v
+ * @LastEditTime: 2023-04-17 11:18:27
+ * @FilePath: \undefinedf:\FPGA_repo\Pabin_module\ab_uduu\ab_uduu.v
  * @Description: 
  *    This module converts the posedge and negedge 
  *of a clock signal into rising edge, when the 
@@ -37,3 +37,5 @@ always @(posedge dubl_clk or negedge rst_n)
             end
     end
 endmodule //ab_uduu
+
+
